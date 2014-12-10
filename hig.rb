@@ -5,7 +5,7 @@ class Hig < Formula
   head 'https://github.com/josephholsten/hig.git'
   version '0.1.3'
   url "https://github.com/josephholsten/hig/archive/#{version}.tar.gz"
-  sha1 '202d774b3ffed7a72aa98a1f04f7516bfffec0bc'
+  sha1 'df5a0e0d3d329a8dfecab85edec77bd39e0d9238'
 
   def install
     prefix.install Dir['*']
