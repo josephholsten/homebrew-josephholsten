@@ -3,9 +3,9 @@ require 'formula'
 class Hig < Formula
   homepage 'https://github.com/josephholsten/hig'
   head 'https://github.com/josephholsten/hig.git'
-  version '0.2.0'
+  version '0.2.1'
   url "https://github.com/josephholsten/hig/archive/#{version}.tar.gz"
-  sha256 '7c8cfd4547519ca62615cfbfa25a27e93992dc6debb5da91ffcbcb4c4181bce3'
+  sha256 '02caeca8bbb5ed5e42d09f0d87ee81babac5b05eb4d445c790704822206c5580'
 
   def install
     prefix.install Dir['*']
