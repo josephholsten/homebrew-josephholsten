@@ -9,7 +9,7 @@ class Hig < Formula
 
 
   def install
-    prefix.install Dir['*']
     bash_completion.install 'completion/hig'
+    prefix.install Dir['*']
   end
 end
