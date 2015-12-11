@@ -7,9 +7,9 @@ class Hig < Formula
   url "https://github.com/josephholsten/hig/archive/#{version}.tar.gz"
   sha256 '02caeca8bbb5ed5e42d09f0d87ee81babac5b05eb4d445c790704822206c5580'
 
-  bash_completion.install 'completion/hig'
 
   def install
     prefix.install Dir['*']
+    bash_completion.install 'completion/hig'
   end
 end
