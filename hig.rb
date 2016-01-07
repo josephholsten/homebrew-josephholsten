@@ -3,9 +3,9 @@ require 'formula'
 class Hig < Formula
   homepage 'https://github.com/josephholsten/hig'
   head 'https://github.com/josephholsten/hig.git'
-  version '0.2.1'
+  version '0.2.2'
   url "https://github.com/josephholsten/hig/archive/#{version}.tar.gz"
-  sha256 '02caeca8bbb5ed5e42d09f0d87ee81babac5b05eb4d445c790704822206c5580'
+  sha256 '0ddd6de37357b11f6f13b3cab0e7893fb7d1a714ce2a61619fb186e28d062923'
 
 
   def install
