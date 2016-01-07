@@ -11,5 +11,6 @@ class Hig < Formula
   def install
     bash_completion.install 'completion/hig'
     prefix.install Dir['*']
+    man1.install 'man/hig.1'
   end
 end
