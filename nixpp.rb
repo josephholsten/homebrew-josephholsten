@@ -3,9 +3,9 @@ require 'formula'
 class Nixpp < Formula
   homepage 'https://github.com/josephholsten/nixpp'
   head 'https://github.com/josephholsten/nixpp.git'
-  version '0.2.0'
+  version '0.2.1'
   url "https://github.com/josephholsten/nixpp/archive/v#{version}.tar.gz"
-  sha256 '2b5573bba2ca4804fb8ba2ebdb58cee29371acf830ffff41e3df63cdf7023629'
+  sha256 '1d051d9eac4afe2b09377433c9fa7463a099f45142056b673f0ff50177e4bd86'
 
   def install
     prefix.install Dir['*']
