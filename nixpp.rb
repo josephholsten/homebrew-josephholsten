@@ -8,7 +8,7 @@ class Nixpp < Formula
   sha256 'e22e4d44a18ea22ab05c1d4a1648fe3adacd27b09005fcc3b4cef408b2b5c0e7'
 
   depends_on 'coreutils' # for realpath
-  depends_on 'most'
+  depends_on 'less'
   depends_on 'parallel'
   depends_on 'terminal-notifier'
 
