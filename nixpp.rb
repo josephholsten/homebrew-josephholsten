@@ -3,9 +3,9 @@ require "formula"
 class Nixpp < Formula
   desc "Shorthands to improved commands"
   homepage "https://github.com/josephholsten/nixpp"
-  version '0.3.2'
-  url "https://github.com/josephholsten/nixpp/archive/v#{version}tar.gz"
-  sha256 "ac969d7729dc4b11712a6803b023148328fc1a1d7ad7a6f6d2fa60ff6234a114"
+  version '0.3.4'
+  url "https://github.com/josephholsten/nixpp/archive/v#{version}.tar.gz"
+  sha256 "306e1f6cc11871ee56ff2fbbc2bea9fab3716ba7bd5ea422854a7de51e9b405b"
   head "https://github.com/josephholsten/nixpp.git"
 
   depends_on "pandoc" => :build
